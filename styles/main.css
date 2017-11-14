@@ -1,1 +1,8 @@
+body {background: #999;
+    font-family: Arial;
+    }
+nav ul li {display: inline-block;
+           margin: 5px; 
+}
 
+h1 {background: blueviolet;}

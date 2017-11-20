@@ -1,8 +1,43 @@
-body {background: #999;
-    font-family: Arial;
-    }
-nav ul li {display: inline-block;
-           margin: 5px; 
+body {background: rgb(140, 127, 255)27, 255)27, 255)27, 255);
+      font-family: Arial;
+      display: block; 
+      margin: auto; 
+      border: dashed; color: salmon;
+      padding: 0px;
+      width: 50%;
+      text-align: center;
 }
 
-h1 {background: blueviolet;}
+h1 {background: blueviolet;
+    color: #ffcc00;
+}
+
+
+.element {
+    pointer-events: auto;
+    position: absolute;
+    background-image: url(.//bali.jpg);
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-size: 100% 100%;
+    z-index: 2;
+    display: inline;
+    opacity: 1;
+    width: 500px;
+    height: 156px;
+    transform-origin: 50% 50% 0px;
+    transform: translateX(0px) translateY(0px) rotateY(0deg);
+}
+
+
+
+p {text-align: center;}
+
+.a1 {background: red;}
+
+p.a2 {background: rgb(53, 183, 235);}
+
+p.a3 {background: linear-gradient(rgb(54, 123, 179), green);}
+
+p.a4 {background: linear-gradient(to left, #91d1d0, white); } 
+

@@ -1,17 +1,51 @@
-body {background: rgb(140, 127, 255)27, 255)27, 255)27, 255);
+body {background: rgb(140, 127, 255)27, 255;
       font-family: Arial;
       display: block; 
       margin: auto; 
-      border: dashed; color: salmon;
+      border: dashed; color: rgb(160, 90, 82);
       padding: 0px;
       width: 50%;
       text-align: center;
 }
 
-h1 {background: blueviolet;
-    color: #ffcc00;
+h1 {background:#ffcc00;
 }
 
+.reflection  { box-sizing: border-box;
+    display: block; 
+    margin: auto; 
+    border: solid; 
+        border-radius: 25px;
+        color: rgb(160, 90, 82);
+        border-width: thin; 
+    padding: 15%;
+    width: 15%;
+    text-align: center;
+}
+
+.time {box-sizing: border-box;
+    display: block; 
+    margin: auto; 
+    border: solid; 
+        border-radius: 10px;
+        color: rgb(199, 99, 23);
+        border-width: thin; 
+    padding: 15%;
+    width: 15%;
+    text-align: center;
+}
+
+.t2 {box-sizing: border-box;
+    display: block; 
+    margin: auto; 
+    border: solid; 
+        border-radius: 10px;
+        color: rgb(82, 160, 114);
+        border-width: thin; 
+    padding: 15%;
+    width: 15%;
+    text-align: center;
+}
 
 .element {
     pointer-events: auto;

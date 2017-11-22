@@ -1,27 +1,39 @@
-body {background: rgb(140, 127, 255)27, 255;
+* {border: 1px red solid !important;
+}
+
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+* {font-family: 'Teko', sans-serif;}
+
+body {background:white;
       font-family: Arial;
       display: block; 
-      margin: auto; 
       border: dashed; color: rgb(160, 90, 82);
-      padding: 0px;
-      width: 50%;
+      width: auto;
       text-align: center;
+      margin-left: -40px;
 }
 
-h1 {background:#ffcc00;
-}
+h1 {background:#ffcc00;}
 
-.reflection  { box-sizing: border-box;
+.reflection{ box-sizing: border-box;
     display: block; 
     margin: auto; 
     border: solid; 
         border-radius: 25px;
-        color: rgb(160, 90, 82);
+        background: #AA7ACF;
+        color: black;
         border-width: thin; 
-    padding: 15%;
+    
     width: 15%;
     text-align: center;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+} 
 
 .time {box-sizing: border-box;
     display: block; 
@@ -47,31 +59,53 @@ h1 {background:#ffcc00;
     text-align: center;
 }
 
-.element {
-    pointer-events: auto;
-    position: absolute;
-    background-image: url(.//bali.jpg);
-    background-repeat: no-repeat;
-    overflow: visible;
-    background-size: 100% 100%;
-    z-index: 2;
-    display: inline;
-    opacity: 1;
-    width: 500px;
-    height: 156px;
-    transform-origin: 50% 50% 0px;
-    transform: translateX(0px) translateY(0px) rotateY(0deg);
+
+
+
+
+p {text-align: center; }
+
+.a1 {background: red; color: white; }
+
+.a2 {background: rgb(53, 183, 235); color: white;}
+
+.a3 {background: linear-gradient(rgb(99, 172, 228), rgb(7, 218, 7)); color: white;}
+
+.a4 {background: linear-gradient(to left, #91d1d0, white); } 
+
+
+
+
+@media only screen and (max-width: 800px) 
+{
+    p{background-color: blue;}
 }
 
+@media only screen and (max-width: 500px) 
+{
+    p{display: none;}
+}
 
+p {padding: 10px; margin: 10px;}
 
-p {text-align: center;}
+.grid {margin: 0 auto;
+           max-width: 1200px;
+           width: 100%;}
 
-.a1 {background: red;}
+.row {width: 100%;
+      display: flex}
 
-p.a2 {background: rgb(53, 183, 235);}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%; padding: 10px; margin: 10px;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
-p.a3 {background: linear-gradient(rgb(54, 123, 179), green);}
-
-p.a4 {background: linear-gradient(to left, #91d1d0, white); } 
 

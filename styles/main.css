@@ -67,7 +67,7 @@ p {text-align: center; }
 
 .a1 {background: red; color: white; }
 
-.a2 {background: rgb(53, 183, 235); color: white;}
+.a2 {background: rgb(53, 183, 235); color: white;} 
 
 .a3 {background: linear-gradient(rgb(99, 172, 228), rgb(7, 218, 7)); color: white;}
 

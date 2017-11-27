@@ -857,8 +857,8 @@ html {
     color: white;
 }
 
-
-<a class="button button-primary" href="#">Anchor button</a>
-<button class="button-primary">Button element</button>
-<input class="button-primary" type="submit" value="submit input">
-<input class="button-primary" type="button" value="button input">
+.question-answer 
+{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
